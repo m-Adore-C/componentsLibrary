@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+*{
+    box-sizing:border-box;
+}
+
+.plate {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #2545b8;
+    color: white;
+    height: 400px;
+    margin-top: 5rem;
+    gap: 32px;
+}
+
+.icon {
+    color: #5c74ca;
+    width: 48px;
+    height: 48px;
+}
+
+.plate > img {
+    width: 384px;
+    height: 464px;
+    border-radius: 12px;
+}
+
+.content > p {
+    max-width: 584px;
+    font-size: 24px;
+}
